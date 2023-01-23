@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #EFE2E2;
+
+}
+
+header {
+    background-color: #FF6A28;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 5px
+}
+
+header img {
+    width: 170px;
+}
+
+header p {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin-left: 5px;
+}
+
+main {
+    max-width: 70em;
+    margin: 0 auto;
+    max-width: 1300;
+    margin: 25px auto;
+    background: #FFF;
+    ;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+
+}
+
+main img {
+    width: 100%;
+    margin: 0 auto;
+    max-height: 382px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.text-info {
+    margin: 20px 10px;
+}
+
+.text-info h1 {
+    color: #FF6A28;
+    font-size: 28px;
+}
+
+.text-info p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.card {
+    background: #F1F1F1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card h4 {
+    color: #FF6A28;
+    font-weight: bold;
+}
+
+.card p {
+    font-weight: bold;
+}
+
+.ingredientes-modo{
+    margin-top: 20px;
+}
+
+.ingredientes-modo h2{
+    color:#FF6A28
+}
+
+.ingredientes-modo ul, ol{
+    margin: 15px 60px 15px 60px
+}
+
+.ingredientes-modo  li{
+    font-size: 18px;
+}
+
+footer {
+    background: #FF6A28;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
